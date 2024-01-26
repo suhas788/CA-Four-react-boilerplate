@@ -1,0 +1,63 @@
+ @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Permanent+Marker&family=Racing+Sans+One&family=Rubik:wght@500&display=swap');
+
+
+
+* {
+    background: url(https://img.freepik.com/premium-photo/blue-purple-gradient-neon-light-question-mark-with-concrete-wall-3d-rendering_626958-64.jpg?w=826);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#opening-page {
+    background: url('restaurant-opening.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    color: rgb(255, 180, 20);
+    text-align: center;
+    font-family: 'Black Ops One', system-ui;
+    position: relative;
+    background: none;
+}
+
+#opening-page #welcome-message {
+    max-width: 600px;
+    background: none;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-family: 'Black Ops One', system-ui;
+    letter-spacing: 1px;
+    z-index: 1;
+    background: none; /* Remove background for the 'Quizz' element */
+}
+
+a {
+    display: inline-block;
+    background-color: #468dda;
+    color: #bb3e3e;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    position: relative;
+    z-index: 2;
+    background: none; /* Remove background for the 'Start' button */
+}
+
+#explore-btn:hover {
+    background-color: #0056b3;
+}
+
+#img {
+    position: absolute;
+    top: 70;
+    left: 97vh;
+    z-index: 1;
+    background: none;
+}
